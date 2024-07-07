@@ -1,0 +1,79 @@
+.scrollspy-container {
+  display: flex;
+}
+
+/* .left-sidebar {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #f1f1f1;
+  transition: all 0.5s ease;
+} */
+
+/* .left-sidebar.active {
+  width: 60px;
+} */
+
+/* .left-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 20%;
+} */
+
+.left-sidebar li {
+  padding: 10px;
+}
+
+.left-sidebar li.active {
+  background: #333;
+  color: #fff;
+}
+
+.nav {
+  width: 5%;
+  padding: 0 20px;
+  margin-left: 25%;
+  box-sizing: border-box;
+}
+/* .nav-link{
+  background-color: 'none';
+  color:#8892b0;
+} */
+.nav:hover{
+  /* background-color: wheat; */
+  color:#64ffda;
+  
+}
+
+.button {
+  border: none;
+  background-color:#0a192f ;
+  color: #8892b0;
+  padding: 8px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: left;
+}
+#muButton{
+  color: #64ffda;
+  background-color:#233554 ;
+}
+.button:hover {
+color: #64ffda;
+
+/* opacity: 3; */
+/* border: 2px solid #4CAF50; */
+}
+.button:focus{
+  color: #64ffda;
+  background-color:#233554 ;
+}

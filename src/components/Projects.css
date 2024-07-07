@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
+
+
+/*  */
+
+#container{
+	box-shadow: 0 5px 10px 1px grey;
+	background: #112240 ;
+	text-align: left;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 5em 15em;
+	height: 300px;
+	width: 700px;
+  
+	
+}
+
+
+
+.product-details {
+	/* position: relative; */
+	/* overflow: hidden; */
+	padding: 20px;
+	/* height: 100%; */
+	float: left;
+	width: 40%;
+
+}
+
+
+
+#container .product-details > p {
+/* font-family: 'EB Garamond', serif; */
+	text-align: left;
+	/* font-size: 18px; */
+	color: #7d7d7d;
+	
+}
+
+
+.product-image {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	float: right;
+	width: 50%;
+	display: inline-block;
+}
+
+#container img {width: 100%;height: 100%;}
+
+
+.product-image:hover img {transition: all 0.3s ease-out;}
+.product-image:hover img {transform: scale(1.2, 1.2);} 
